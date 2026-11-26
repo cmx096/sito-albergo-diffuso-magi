@@ -83,9 +83,6 @@ h1 em, h2 em { color: var(--rust); font-weight: 400; }
 .welcome h2, .section-heading h2, .experience h2, .contact h2 { margin-bottom: 20px; font-size: clamp(38px, 4.4vw, 56px); line-height: 1.15; }
 .welcome-copy > p:not(.eyebrow), .experience-copy > p:not(.eyebrow), .contact-copy > p:not(.eyebrow) { max-width: 420px; margin-bottom: 26px; color: var(--muted); font-size: 13px; line-height: 1.95; }
 .text-link { display: inline-flex; align-items: center; gap: 20px; padding-bottom: 6px; border-bottom: 1px solid var(--rust); color: var(--green-dark); font-size: 11px; font-weight: 600; transition: color .2s ease; }
-.welcome-stamp { position: absolute; right: 0; bottom: -34px; display: grid; width: 98px; height: 98px; align-content: center; justify-items: center; border: 1px solid #c9b9a2; border-radius: 50%; color: var(--green); text-align: center; transform: rotate(9deg); }
-.welcome-stamp span { font-size: 8px; letter-spacing: .12em; line-height: 1.5; }
-.welcome-stamp b { margin-top: 2px; color: var(--rust); font-size: 18px; font-weight: 400; }
 
 .locations { padding-top: 90px; padding-bottom: 105px; background: #efe7d9; }
 .locations .section-heading { margin-bottom: 35px; }
@@ -222,7 +219,6 @@ h1 em, h2 em { color: var(--rust); font-weight: 400; }
   .section-pad { padding: 90px 8%; }
   .welcome { gap: 7%; }
   .welcome-photo { min-height: 420px; }
-  .welcome-stamp { right: -13px; }
   .locations-layout { grid-template-columns: .9fr 1.1fr; gap: 24px; }
   .map-frame, #saturnia-map { min-height: 390px; }
   .stays { padding-top: 75px; }
@@ -270,9 +266,6 @@ h1 em, h2 em { color: var(--rust); font-weight: 400; }
   .welcome-photo img { width: 90%; }
   .photo-label { right: -14px; bottom: 18px; font-size: 7px; }
   .welcome-copy { padding: 5px 0 20px; }
-  .welcome-stamp { right: 2px; bottom: -15px; width: 80px; height: 80px; }
-  .welcome-stamp span { font-size: 7px; }
-  .welcome-stamp b { font-size: 15px; }
   .locations { padding-top: 72px; padding-bottom: 75px; }
   .locations-layout { grid-template-columns: 1fr; gap: 28px; }
   .location-card { grid-template-columns: 37px 1fr 33px; }
